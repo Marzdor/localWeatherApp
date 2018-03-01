@@ -1,0 +1,40 @@
+body {
+  background: black;
+  color     : lime;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.container {
+  width     : 80%;
+  margin    : 0 auto;
+  text-align: center;
+}
+
+.icon {
+  border    : 1px solid lime;
+  background: darkgray;
+}
+
+.mainT,
+.maxT,
+.minT {
+  display   : inline-block;
+  padding   : 1em;
+  margin    : 0;
+  border    : none;
+  background: black;
+  color     : lime;
+  cursor    : pointer;
+}
+
+.mainT {
+  font-size: 1.8rem;
+}
+
+.maxT,
+.minT {
+  font-size: 1.2rem;
+}
